@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "expo-external-display": ["../src/index"],
-      "expo-external-display/*": ["../src/*"]
+      "@isvend/expo-external-display": ["../src/index"],
+      "@isvend/expo-external-display/*": ["../src/*"]
     }
   }
 }

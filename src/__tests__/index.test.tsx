@@ -55,7 +55,7 @@ jest.mock('expo', () => {
 (globalThis as typeof globalThis & { IS_REACT_ACT_ENVIRONMENT: boolean }).IS_REACT_ACT_ENVIRONMENT =
   true;
 
-describe('expo-external-display public API', () => {
+describe('@isvend/expo-external-display public API', () => {
   let consoleErrorSpy: jest.SpyInstance;
   const originalConsoleError = console.error;
 

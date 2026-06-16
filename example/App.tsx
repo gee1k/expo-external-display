@@ -6,7 +6,7 @@ import ExternalDisplay, {
   useExternalDisplay,
   useScreenSize,
   type Screen,
-} from 'expo-external-display';
+} from '@isvend/expo-external-display';
 
 function ExternalContent() {
   const screen = useScreenSize();
@@ -46,7 +46,7 @@ export default function App() {
       <SafeAreaView style={styles.container}>
         <ScrollView contentContainerStyle={styles.scroll}>
           <View style={styles.panel}>
-            <Text style={styles.title}>expo-external-display</Text>
+            <Text style={styles.title}>@isvend/expo-external-display</Text>
             <Text style={styles.label}>Detected screens: {allScreens.length}</Text>
             <Text style={styles.value}>{JSON.stringify(getScreens(), null, 2)}</Text>
           </View>

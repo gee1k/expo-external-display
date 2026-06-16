@@ -20,7 +20,7 @@ config.resolver.nodeModulesPaths = [
 ];
 
 config.resolver.extraNodeModules = {
-  'expo-external-display': '..',
+  '@isvend/expo-external-display': '..',
 };
 
 config.watchFolders = [path.resolve(__dirname, '..')];

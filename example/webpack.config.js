@@ -6,7 +6,7 @@ module.exports = async (env, argv) => {
     {
       ...env,
       babel: {
-        dangerouslyAddModulePathsToTranspile: ['expo-external-display'],
+        dangerouslyAddModulePathsToTranspile: ['@isvend/expo-external-display'],
       },
     },
     argv

@@ -1,4 +1,4 @@
-# expo-external-display
+# @isvend/expo-external-display
 
 Expo Module for rendering React Native content on an external display in native iOS and Android apps.
 
@@ -7,11 +7,9 @@ This project is inspired by the normal external-display rendering approach in [`
 ## Installation
 
 ```sh
-npm install expo-external-display
-npx pod-install
+npx expo install @isvend/expo-external-display
+npx expo prebuild
 ```
-
-This package uses Expo autolinking through `expo-module.config.json`.
 
 This package is native-only and supports iOS and Android. It does not support web.
 
@@ -20,7 +18,7 @@ This package is native-only and supports iOS and Android. It does not support we
 ```tsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import ExternalDisplay, { useExternalDisplay } from 'expo-external-display';
+import ExternalDisplay, { useExternalDisplay } from '@isvend/expo-external-display';
 
 export default function App() {
   const screens = useExternalDisplay();
@@ -110,7 +108,7 @@ npm run ios
 npm run android
 ```
 
-The example uses `expo-external-display` through `file:..`, renders the external surface with `fallbackInMainScreen`, and prints the detected `getScreens()` result on the main screen.
+The example uses `@isvend/expo-external-display` through `file:..`, renders the external surface with `fallbackInMainScreen`, and prints the detected `getScreens()` result on the main screen.
 
 Manual device coverage:
 

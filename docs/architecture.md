@@ -1,8 +1,8 @@
-# expo-external-display Architecture
+# @isvend/expo-external-display Architecture
 
 ## Purpose
 
-`expo-external-display` is an Expo Module that lets React Native content render on a connected external display while the main app remains available on the primary device screen.
+`@isvend/expo-external-display` is an Expo Module that lets React Native content render on a connected external display while the main app remains available on the primary device screen.
 
 The package has two responsibilities:
 
