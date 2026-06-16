@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["ExpoExternalDisplayModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.externaldisplay.ExpoExternalDisplayModule"]
+  }
+}

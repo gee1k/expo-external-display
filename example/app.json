@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "External Display Example",
+    "slug": "expo-external-display-example",
+    "version": "0.1.0",
+    "orientation": "default",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.modules.externaldisplay.example",
+      "appleTeamId": "W863J6W8DZ"
+    },
+    "android": {
+      "package": "expo.modules.externaldisplay.example"
+    }
+  }
+}
