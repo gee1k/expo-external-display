@@ -8,7 +8,6 @@ This project is inspired by the normal external-display rendering approach in [`
 
 ```sh
 npx expo install @isvend/expo-external-display
-npx expo prebuild
 ```
 
 This package is native-only and supports iOS and Android. It does not support web.
